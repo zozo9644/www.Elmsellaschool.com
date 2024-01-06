@@ -110,3 +110,60 @@ button{
     opacity: 1;
 
 }
+@media screen and (max-width: 600px) {
+    #hero {
+        width: 180%;
+        height: 200vh;
+    }
+    .navbar {
+        width: 80;
+    }
+    .navbar .logo {
+        width: 250px;
+        transform: translateX(-365px);
+    }
+    .user{
+        transform: translateX(-30px);
+        transform: translateY(-40px);
+    }
+    .user img {
+        width: 100px;
+        transform: translateX(-10px);
+    }
+    button {
+        padding: 8px 20px;
+        transform: translateX(20px);
+    }
+    .container {
+        width: 40%;
+        height: 200vh;
+    }
+    .info {
+        width: 60px;
+        right: -15px;
+    }
+    .info h1 {
+        font-size: 60px;
+    }
+    .info input {
+        width: 150%;
+        font-size: 15px;
+    }
+    .slider {
+        right: 100px;
+        bottom: 225px;
+    }
+    #prev, #next {
+        width: 60px;
+    }
+    .preview {
+        margin: 0 20px;
+    }
+    .preview img {
+        width: 50px;
+        margin: 0 5px;
+    }
+    .preview .active {
+        width: 60px;
+    }
+}
