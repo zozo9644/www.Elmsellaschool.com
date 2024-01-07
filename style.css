@@ -144,8 +144,8 @@ button{
 @media screen and (max-width: 600px) {
 
     #hero{
-        width: 140%;
-        height: 140vh;
+        width: 170%;
+        height: 170vh;
         background-image:url(bg1.png) ;
         background-size: cover;
         background-position: center;
@@ -165,14 +165,14 @@ button{
             margin: 20px 0;
             position: relative;
             cursor: pointer;
-            transform: translateX(-20px);
+            transform: translateX(-28px);
         }
         .navbar ul li{
             list-style: none;
             display: inline;
             position: relative;
             padding-right:  160px;
-            left: 27px;
+            left: 40px;
             top: 218px;
         }
         .navbar ul li a {
@@ -221,7 +221,7 @@ button{
         }
         .container{
             width: 40%;
-            height: 120vh;
+            height: 170vh;
             background: rgba(86, 86, 86, 0.3);
             backdrop-filter: blur(10px);
             position: absolute;
