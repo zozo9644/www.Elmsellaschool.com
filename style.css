@@ -172,12 +172,12 @@ button{
             display: inline;
             position: relative;
             padding-right:  160px;
-            left: 60px;
-            top: 200px;
+            left: 35px;
+            top: 180px;
         }
         .navbar ul li a {
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            font-size: 22px;
+            font-size: 18px;
             text-decoration: dotted;
             color: #fffb00;
             text-transform: uppercase;
