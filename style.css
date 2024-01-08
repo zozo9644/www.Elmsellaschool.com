@@ -54,6 +54,30 @@ position: relative;
 .navbar ul li:hover::after{
     width: 65%;
 }
+.navbar h1{
+    top: 280px;
+    position: absolute;
+    transform: translateY(700px);
+    transform: translateX(480px);
+    color: #fbff00;
+    font-size: 60px;
+}
+.navbar h1 span {
+    color: #ff0000;
+}
+.navbar .launch-time{
+    top: 350px;
+    color: rgb(220, 20, 60);
+    position: absolute;
+    transform: translateY(750px);
+    transform: translateX(330px);
+    display: flex;
+    gap: 25px;
+    font-size: 40px;
+}
+.navbar .launch-time p{
+    margin-bottom: -4px;
+}
 .user{
     display: flex;
     align-items: center;
@@ -196,17 +220,35 @@ button{
         .navbar ul li:hover::after{
             width: 70%;
         }
+        .navbar h1{
+            top: 320px;
+            position: absolute;
+            transform: translateY(10px);
+            transform: translateX(175px);
+            color: #fbff00;
+            font-size: 30px;
+        }
+        .navbar h1 span {
+            color: #ff0000;
+        }
+        .navbar .launch-time{
+            top: 350px;
+            color: rgb(255, 0, 0);
+            position: absolute;
+            transform: translateY(7px);
+            transform: translateX(118px);
+            display: flex;
+            gap: 12px;
+            font-size: 15px;
+        }
+        .navbar .launch-time p{
+            margin-bottom: -4px;
+        }
         .user{
             display: flex;
             align-items: center;
             transform: translateX(-30px);
             transform: translateY(-40px);
-        }
-        .user img{
-            width: 40px;
-            margin-left: 50px;
-            cursor: pointer;
-            transform: translateX(-100px);
         }
         button{
             padding: 4px 18px;

@@ -16,6 +16,25 @@ head>
                     <li><a href="./About Us.html">About Us</a></li>
                     <li><a href="./Contact Us.html">Contact US</a></li>
                 </ul>
+                <h1>Nat<span>io</span>nal</h1>
+                <div class="launch-time">
+                    <div>
+                        <p id="Days">00</p>
+                        <span>Days</span>
+                    </div>
+                    <div>
+                        <p id="Hours">00</p>
+                        <span>Hours</span>
+                    </div>
+                    <div>
+                        <p id="Minutes">00</p>
+                        <span>Minutes</span>
+                    </div>
+                    <div>
+                        <p id="Seconds">00</p>
+                        <span>Seconds</span>
+                    </div>
+                </div>
             <div class="user">
                 <button type="button">Explore</button>
             </div>
@@ -69,7 +88,19 @@ head>
             }
             
         }
-        
+        var countDownDate = new Date("june 10, 2024 00:00:00").getTime();
+    var x = setInterval(function(){
+        var now = new Date().getTime();
+        var distance = countDownDate - now;
+        var Days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var Hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var Minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var Seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        document.getElementById("Days").innerHTML = Days
+        document.getElementById("Hours").innerHTML = Hours
+        document.getElementById("Minutes").innerHTML = Minutes
+        document.getElementById("Seconds").innerHTML = Seconds
+    },1000);
 
     </script>
 
