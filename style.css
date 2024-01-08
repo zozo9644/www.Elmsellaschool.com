@@ -173,8 +173,8 @@ button{
             display: inline;
             position: relative;
             padding-right:  160px;
-            left: -10px;
-            top: 170px;
+            left: 3px;
+            top: 160px;
         }
         .navbar ul li a {
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -206,7 +206,7 @@ button{
             width: 40px;
             margin-left: 50px;
             cursor: pointer;
-            transform: translateX(-150px);
+            transform: translateX(-100px);
         }
         button{
             padding: 4px 18px;
@@ -218,7 +218,7 @@ button{
             font-size: 12px;
             font-weight: bold;
             cursor: pointer;
-            transform: translateX(-110px);
+            transform: translateX(-65px);
         }
         .container{
             width: 40%;
@@ -238,7 +238,7 @@ button{
             transform: translateY(-50%);
         }
         .info h1{
-            font-size: 20px;
+            font-size: 24px;
             letter-spacing: 2px;
         }
         .info input{
@@ -258,7 +258,7 @@ button{
             display: flex;
             align-items: center;
             position: absolute;
-            right: 5px;
+            right: 20px;
             bottom: 100px;
         }
         #prev, #next{
